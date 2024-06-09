@@ -202,7 +202,7 @@ img {
   
 }
 
-.visually-hidden 
+
 
 .main-list {
     display: flex;
@@ -212,8 +212,8 @@ img {
     
 }
 
-.main-list-item-first {
-    calc((100% - 72px) / 4);
+.main-list-item {
+  width: calc((100% - 72px) / 4);
 }
 
 .main-subtitle {
