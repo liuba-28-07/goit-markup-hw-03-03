@@ -36,11 +36,13 @@ img {
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-navigation {
     display: flex;
     flex-grow: 1;
+    align-items: center;
 }
 
 .header-container {
@@ -68,6 +70,8 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px; 
+    padding-bottom: 24px
 
 }
 
@@ -87,6 +91,8 @@ img {
 .header-social-address {
     display: flex;
     gap: 40px;
+    padding-top: 24px;  
+    padding-bottom: 24px;
 }
 
 .header-list-address {
