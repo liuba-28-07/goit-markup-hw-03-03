@@ -137,6 +137,8 @@ img {
 
 .hero {
     background-color:  #2E2F42;
+    padding-top: 188px; 
+    padding-bottom: 188px;
    }
 
 .hero-title {
@@ -200,6 +202,8 @@ img {
   
 }
 
+.visually-hidden 
+
 .main-list {
     display: flex;
     margin-bottom: 8px;
@@ -208,7 +212,7 @@ img {
     
 }
 
-.main-list-item {
+.main-list-item-first {
     calc((100% - 72px) / 4);
 }
 
