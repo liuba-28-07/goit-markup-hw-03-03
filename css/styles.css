@@ -129,7 +129,8 @@ img {
 /*------------HERO------------*/
 
 .hero-container {
-    padding: 188px 0;
+    padding-top: 188px; 
+    padding-bottom: 188px;
     
 }
 
@@ -166,6 +167,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 16px 32px 16px 32px;
+    min-width: 169px;
     
 }
 
@@ -195,6 +197,7 @@ img {
   text-align: center;
   color: #2E2F42;
   margin-bottom: 72px;
+  
 }
 
 .main-list {
@@ -206,7 +209,7 @@ img {
 }
 
 .main-list-item {
-    width: calc((100% - 3 * 24px) / 4);
+    calc((100% - 72px) / 4);
 }
 
 .main-subtitle {
