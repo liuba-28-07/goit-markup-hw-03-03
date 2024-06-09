@@ -47,6 +47,7 @@ img {
 
 .header-container {
     display: flex;
+    
 }
 
 .header-logo {
@@ -70,8 +71,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding-top: 24px; 
-    padding-bottom: 24px
+   
 
 }
 
@@ -82,6 +82,8 @@ img {
     letter-spacing: 0.02em;
     text-align: left;
     color: #2E2F42;
+    padding-top: 24px;  
+    padding-bottom: 24px;
 }
 
 .header-address {
@@ -91,8 +93,7 @@ img {
 .header-social-address {
     display: flex;
     gap: 40px;
-    padding-top: 24px;  
-    padding-bottom: 24px;
+    
 }
 
 .header-list-address {
@@ -102,6 +103,8 @@ img {
    letter-spacing: 0.02em;
    text-align: left;
    color: #434455;
+   padding-top: 24px;  
+   padding-bottom: 24px;
 }
 
 
