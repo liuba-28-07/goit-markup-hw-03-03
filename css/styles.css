@@ -273,6 +273,10 @@ img {
     border-radius: 0px 0px 4px 4px;
 }
 
+.team-employee {
+    padding: 32px 0;
+}
+
 .team-image {
     margin: 0 auto;
     margin-bottom: 32px;
