@@ -213,7 +213,7 @@ img {
 }
 
 .main-list-item {
-  width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 
 .main-subtitle {
@@ -378,6 +378,8 @@ img {
 
 .footer {
     background-color: #2E2F42;
+    padding-top: 100px; 
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -395,6 +397,8 @@ img {
 .footer-logo-studio {
     line-height: 1.17;
     color: #f4f4fd;
+    display: inline-block; 
+    margin-bottom: 16px;
 }
 .footer-text {
    font-family: Roboto;
