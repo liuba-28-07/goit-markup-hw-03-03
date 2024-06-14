@@ -191,6 +191,17 @@ img {
     padding-bottom: 120px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
 .main-title {
   font-size: 36px;
   font-weight: 700;
@@ -212,7 +223,7 @@ img {
     
 }
 
-.main-list-item {
+.main-list-item-first {
     width: calc((100% - 72px) / 4);
 }
 
@@ -391,14 +402,15 @@ img {
     text-transform: uppercase;
     text-align: left;
     color: #4d5ae5; 
+    display: inline-block; 
+    margin-bottom: 16px;
 
 }
 
 .footer-logo-studio {
     line-height: 1.17;
     color: #f4f4fd;
-    display: inline-block; 
-    margin-bottom: 16px;
+  
 }
 .footer-text {
    font-family: Roboto;
