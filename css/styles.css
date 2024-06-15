@@ -192,7 +192,6 @@ img {
 }
 
 .visually-hidden  {
-    display: none;
     position: absolute;
     width: 1px;
     height: 1px;
@@ -207,16 +206,7 @@ img {
     
 
 
-.main-title {
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2E2F42;
-  margin-bottom: 72px;
-  
-}
+
 
 
 
